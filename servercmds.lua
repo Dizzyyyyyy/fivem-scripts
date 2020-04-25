@@ -1,12 +1,3 @@
-------------------------
-----[Made by Ryan W]----
-------------------------
-
-
-
-
-
-
 RegisterCommand("help", function(source, args, user)
     table.remove(args, 1)
     TriggerClientEvent('chatMessage', -1, "^5[Server]", {255, 0, 0}, "Discord: ")
